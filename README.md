@@ -152,4 +152,4 @@ Notice how all these timings are generally never get below than 63-66ms using Gr
 
 ## Summary
 
-In this computationally dominate example, depending on what timings are compared, GraalVM is approximately 2-3x faster.
+In this computationally dominant example, depending on what timings are compared, GraalVM is approximately 2-3x faster.
