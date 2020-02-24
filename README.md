@@ -1,11 +1,11 @@
-# GraalVM Example: GraalVM vs AdoptOpenJVM
+# GraalVM Example: GraalVM vs AdoptOpenJDK/JVM
 
 This repository contains the code for the GraalVM demo at [https://www.graalvm.org/docs/examples/java-performance-examples/].
 
 ## Prerequisite Installations
 * [asdf](https://github.com/asdf-vm)
-* GraalVM plugin for `asdf`
-* Java plugin for `asdf`
+* GraalVM plugin for `asdf` (`asdf plugin add graalvm`)
+* Java plugin for `asdf` (`asdf plugin add java`)
 
 ## Preparation
 
@@ -32,7 +32,7 @@ javac -version
 
 Compile the performance test:
 ```
-javac ../CountUpperCase.java -d ./
+javac ../CountUppercase.java -d ./
 ```
 
 Now run the performance test multiple times:
@@ -97,7 +97,7 @@ javac -version
 
 Compile the performance test:
 ```
-javac ../CountUpperCase.java -d ./
+javac ../CountUppercase.java -d ./
 ```
 
 Now run the performance test multiple times:
